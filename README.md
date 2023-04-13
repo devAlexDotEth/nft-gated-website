@@ -33,7 +33,7 @@ When we verified the user's identity on the server-side, we check their wallet t
 
 ```jsx
 // This is the chain your dApp will work on.
-const activeChain = "mumbai";
+const activeChain = "SmartChain";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
       }}
     >
       <Head>
-        <title>NFT Gated Website</title>
+        <title>Morvillo Abramowitz Grand Iason & Anello</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"

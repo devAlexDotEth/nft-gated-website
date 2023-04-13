@@ -53,7 +53,7 @@
   min-width: 3rem;
   font-size: 1rem;
   background: #e5e5ea;
-  background-image: linear-gradient(to left, #cc25b3 0%, #418dff 101.52%);
+  background-image: linear-gradient(to left, #0f0080 0%, #4f95ff 101.52%);
   color: #fff;
   width: 180px;
   text-align: center;
@@ -76,6 +76,60 @@
   border-radius: 8px;
   padding: 8px;
 }
+
+.inlineButton {
+  display: inline;
+}
+
+.inlineWrapper {
+  display: inline-block;
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.explainNoMargin {
+  margin: 0;
+}
+
+.eventDetails {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.h2 {
+  font-size: 1.69rem;
+  margin-top: 0;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 600px; /* Adjust this value to your preference */
+  height: auto; /* This maintains the aspect ratio of the image */
+}
+.paragraph {
+  max-width: 600px; /* Adjust this value to your preference */
+  margin-left: auto;
+  margin-right: auto;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /* Optional: adjust the gap between the images */
+}
+
+
 
 .contractBoxGrid {
   width: 1200px;

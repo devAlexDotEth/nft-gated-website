@@ -32,14 +32,14 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <img
-          src={"/github.png"}
+          src={"/favicon.ico"}
           width={40}
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
           onClick={() =>
             window.open(
-              "https://github.com/thirdweb-example/nft-gated-website",
+              "https://github.com/devAlexDotEth",
               "_blank"
             )
           }
